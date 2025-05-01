@@ -1,7 +1,6 @@
 body {
   padding: 0;
   margin: 0;
-  padding-bottom: 2rem;
 }
 
 img,
@@ -72,6 +71,14 @@ img {
   background-size: cover;
 }
 
+#art2 {
+  width: 100%;
+  height: 200px;
+  background-image: url("images/art.jpg");
+  background-position: bottom;
+  background-size: cover;
+}
+
 #chart-1 {
   width: 950px;
   max-width: 100%;
@@ -118,4 +125,5 @@ p {
 
 .main {
   margin: 0 1rem;
+  margin-bottom: 2rem;
 }
